@@ -133,29 +133,34 @@ int ft_printf( const char * format, ... ) {
 int main( int argc, char * argv[] ) {
 
 
-    int a = 10;
-    int age = 10;
+    // int a = 10;
+    // int age = 10;
 
-    size_t size = ft_printf( "Begin %s %% %c %u End\n", "Middle", 'a', -33 );
+    // size_t size = ft_printf( "Begin %s %% %c %u End\n", "Middle", 'a', -33 );
 
-    printf( "Begin %s %% %c End\n", "Middle", 'a' );
+    // printf( "Begin %s %% %c End\n", "Middle", 'a' );
 
-    size = ft_printf( "Begin %d End\n", 123 );
+    // size = ft_printf( "Begin %d End\n", 123 );
 
-    size = ft_printf( "Begin %f End\n", 123.456 );
+    // size = ft_printf( "Begin %f End\n", 123.456 );
 
-    size = ft_printf( "Begin %s %d %f End\n", "toto", 421, 123.456 );
+    // size = ft_printf( "Begin %s %d %f End\n", "toto", 421, 123.456 );
 
-    printf("%p \n", &a);
+    // printf("%p \n", &a);
 
-    ft_printf("%p \n", &a);
+    // ft_printf("%p \n", &a);
 
-    printf("%u \n", -33);
+    // printf("%u \n", -33);
 
-    ft_printf("%u \n", -33);
+    // ft_printf("%u \n", -33);
 
-    int x = printf("%5d", 3);
-    printf("%d \n", x);
+    // int x = printf( "%*s%10d%10c%10f\n\n",10, "hello", 7, 'a', 1.23);
+    // int y = printf( "%-*s%-10d%-10c%-10f\n\n",10, "hello", 7, 'a', 1.23);
+    
+    int z = printf( "%%-\n");
+    // printf("%d \n", x);
+    // printf("%d \n", y);
+    printf("%d \n", z);
 
    // printf("La variable age vaut : %d \n", &age);
     return 0;
