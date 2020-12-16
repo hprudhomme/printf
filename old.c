@@ -157,7 +157,7 @@ int main( int argc, char * argv[] ) {
     // int x = printf( "%*s%10d%10c%10f\n\n",10, "hello", 7, 'a', 1.23);
     // int y = printf( "%-*s%-10d%-10c%-10f\n\n",10, "hello", 7, 'a', 1.23);
     
-    int z = printf( "%%-\n");
+    int z = printf( "%%10g\n");
     // printf("%d \n", x);
     // printf("%d \n", y);
     printf("%d \n", z);
